@@ -21,3 +21,12 @@ To ensure that the project remains understandable and that the purpose of comple
 - Any significant feature, module, or service within a package must be accompanied by a `.md` file in the same directory.
 - This file should explain the feature's purpose, its core logic, and how it interacts with other parts of the system.
 - **Example**: If we create a complex `PropertyRecommender` service within the `agent` package, it must be located alongside a `PropertyRecommender.md` file that explains its algorithm and usage.
+
+## 3. Principle of Slow Development
+
+- At the early statge of project, do not write too much code at the same file. Should only focus on the current most important things at the same time.
+- Create or Make Dramatic Changes to at most `3` files in the same generation run.
+
+### 4. Principle of Agile Development
+
+- We follow the principle of agile software development, therefore, try not complete on the first try, always and only focus on the most urgent thing
